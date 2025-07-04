@@ -5,6 +5,8 @@ Working with large CSV files in web applications can be a nightmare. Load a 500M
 
 Today, I'm sharing a PHP script that elegantly solves this problem by processing large CSV files line-by-line, implementing smart pagination, and providing a clean search interface—all while keeping memory usage minimal.
 
+[![xsukax PHP CSV File Browse & Search](https://img.youtube.com/vi/i7Ki-mI30fo/sddefault.jpg)](https://www.youtube.com/watch?v=i7Ki-mI30fo)
+
 ## The Problem: Traditional CSV Processing Falls Short
 
 Most developers start with the obvious approach: load the entire CSV into an array using `file()` or `fgetcsv()` in a loop. This works fine for small files, but becomes problematic when dealing with:
