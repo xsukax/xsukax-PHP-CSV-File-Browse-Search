@@ -175,16 +175,19 @@ graph LR
     A[File Size] --> B[Memory Usage]
     A --> C[Processing Time]
     
-    B --> D[Streaming: O(1)]
-    B --> E[Traditional: O(n)]
+    B --> D["Streaming<br/>O(1)"]
+    B --> E["Traditional<br/>O(n)"]
     
-    C --> F[Linear Scan: O(n)]
-    C --> G[Indexed DB: O(log n)]
+    C --> F["Linear Scan<br/>O(n)"]
+    C --> G["Indexed DB<br/>O(log n)"]
     
-    style D fill:#90EE90
-    style E fill:#FFB6C1
-    style F fill:#FFD700
-    style G fill:#87CEEB
+    style D fill:#90EE90,stroke:#333,stroke-width:2px
+    style E fill:#FFB6C1,stroke:#333,stroke-width:2px
+    style F fill:#FFD700,stroke:#333,stroke-width:2px
+    style G fill:#87CEEB,stroke:#333,stroke-width:2px
+    style A fill:#f9f,stroke:#333,stroke-width:4px
+    style B fill:#bbf,stroke:#333,stroke-width:2px
+    style C fill:#bbf,stroke:#333,stroke-width:2px
 ```
 
 ### Memory Efficiency Comparison
